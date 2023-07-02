@@ -1,0 +1,36 @@
+/* Apply flexbox properties to body */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+
+article {
+  flex: 2;
+}
+
+aside {
+  flex: 1;
+}
+
+
+article, aside {
+  overflow-y: auto;
+}
+#logo{
+
+    font-size: 46px;
+margin-right: 76%;
+  
+}
+.link{
+  
+  margin-right: 15px;
+
+}
