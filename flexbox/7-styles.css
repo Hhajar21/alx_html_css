@@ -293,6 +293,7 @@ template{display:none}
   .header-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .header {
     padding: var(--header-padding);
